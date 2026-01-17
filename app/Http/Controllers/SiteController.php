@@ -20,6 +20,6 @@ class SiteController extends Controller
 
     public function dashboard()
     {
-        return view(route('site.dashboard'));
+        return view('dashboard');
     }
 }
